@@ -1,0 +1,30 @@
+.todo__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.checkbox {
+  margin-right: 15px;
+  width: 28px;
+  height: 28px;
+}
+.todo__text {
+  font-size: 28px;
+}
+.completed {
+  text-decoration: line-through;
+}
+.delete-btn {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 4px;
+  background: #eb5757;
+  padding: 13px 26px;
+  &:hover {
+    background: #ff0000;
+  }
+}

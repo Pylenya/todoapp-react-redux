@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 /* Reset and base styles  */
 * {
   padding: 0px;
@@ -107,4 +109,26 @@ label {
 
 legend {
   display: block;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.todo__title {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.62px;
+  margin-bottom: 50px;
+}
+.wrapper {
+  max-width: 730px;
+  padding: 0 15px;
+  margin: 0 auto;
 }

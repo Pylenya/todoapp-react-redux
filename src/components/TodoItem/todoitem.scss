@@ -1,0 +1,12 @@
+.todo__item {
+  display: grid;
+  grid-template-columns: 30px auto auto;
+  column-gap: 25px;
+  align-items: center;
+}
+.basket {
+  justify-self: flex-end;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
